@@ -8,7 +8,7 @@
 
 ## What is 「Envoy」<hr>
 
-When kubernetes(k8s) Pos increase, Envoy prevent debug and keep k8s scalability
+When kubernetes(k8s) Pods increase, "Envoy" prevent debug and keep k8s scalability
 
 ![https---qiita-image-store s3 amazonaws com-0-3553-efdbd70f-4b11-6341-e675-51a648b6e5a9](https://user-images.githubusercontent.com/48679574/79578286-0100c700-8101-11ea-9699-2e01be497f22.png)
 
