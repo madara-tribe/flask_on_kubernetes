@@ -21,7 +21,7 @@ def reply():
         img = np.asarray(bytearray(resp.read()), dtype="uint8")
         img = cv2.imdecode(img, cv2.IMREAD_COLOR)
         pred = predict(img)
-        return pred
+        return int(pred)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=5000,debug=True)
